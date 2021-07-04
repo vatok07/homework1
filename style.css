@@ -1,0 +1,112 @@
+* {
+    margin: 0%;
+    border: 0%;
+ 
+}
+
+.container {   
+    width: 100%;
+    height: 990px;
+}
+
+.ziano {
+    width: 116px;
+    height: 28px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    color: black;
+    font-size: 32px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+.icons {
+    width: 122px;
+    height: 24px;
+   display: flex;
+   justify-content: space-between;
+   position: absolute;
+   left: 1200px;
+   top: 54px;
+}
+
+.icons img {
+    font-size: 24px;
+    color: rgb(182, 182, 182);
+    width: 24px;
+    height: 24px;
+}
+
+.sidebar {
+    width: 166px;
+    height: 312px;
+    position: absolute;
+    left: 48px;
+    top: 173px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    font-size: 22px;    
+}
+
+.middletext {
+    width: 525px;
+    height: 319px;
+    position: absolute;
+    left: 321px;
+    top: 240px;
+ 
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.middletext :nth-child(2) {
+    font-size: 62px;
+   
+}
+
+.buttons {
+    width: 394px;
+    height: 72px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+ 
+}
+
+.buttons button {
+    width: 185px;
+    height: 72px;
+    border-radius: 7px;
+    border: none;
+    border: 1px solid rgb(161, 161, 161);
+    outline: none;
+    
+    
+}
+
+.buttons :first-child {
+    background-color: black; 
+    color: white;
+    font-size: 15px;  
+}
+
+.buttons :last-child {
+    font-size: 15px;
+}
+
+.bg-image img {
+    z-index: -3;
+    position: absolute;
+    left: 550px;
+    top: 470px;
+    
+    width: 750px;
+}
